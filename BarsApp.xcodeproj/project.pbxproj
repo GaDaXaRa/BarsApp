@@ -18,7 +18,16 @@
 		3F5D6B881941AC6F00ABFDE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F5D6B6D1941AC6F00ABFDE7 /* Foundation.framework */; };
 		3F5D6B891941AC6F00ABFDE7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F5D6B711941AC6F00ABFDE7 /* UIKit.framework */; };
 		3F5D6B911941AC6F00ABFDE7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F5D6B8F1941AC6F00ABFDE7 /* InfoPlist.strings */; };
-		3F5D6B931941AC6F00ABFDE7 /* BarsAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5D6B921941AC6F00ABFDE7 /* BarsAppTests.m */; };
+		3F5D6BA11941ACC400ABFDE7 /* Bar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5D6BA01941ACC400ABFDE7 /* Bar.m */; };
+		3F5D6BA31941B28900ABFDE7 /* BarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5D6BA21941B28900ABFDE7 /* BarTests.m */; };
+		3F5D6BA61941B4A900ABFDE7 /* Bars.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5D6BA51941B4A900ABFDE7 /* Bars.m */; };
+		3F5D6BA81941B6FD00ABFDE7 /* bars_list.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F5D6BA71941B6FD00ABFDE7 /* bars_list.plist */; };
+		3F5D6BAA1941B80800ABFDE7 /* BarsListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5D6BA91941B80800ABFDE7 /* BarsListTests.m */; };
+		3F5D6BAC1941BB1600ABFDE7 /* Bars.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F5D6BAB1941BB1600ABFDE7 /* Bars.storyboard */; };
+		3F5D6BAF1941BB3E00ABFDE7 /* BarsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5D6BAE1941BB3E00ABFDE7 /* BarsViewController.m */; };
+		3FEA74191941CE0D007E3E38 /* bars_list.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F5D6BA71941B6FD00ABFDE7 /* bars_list.plist */; };
+		3FEA741C1941CFD4007E3E38 /* MoreInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEA741B1941CFD4007E3E38 /* MoreInfoViewController.m */; };
+		3FEA741E1941D788007E3E38 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEA741D1941D788007E3E38 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +56,19 @@
 		3F5D6B861941AC6F00ABFDE7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3F5D6B8E1941AC6F00ABFDE7 /* BarsAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BarsAppTests-Info.plist"; sourceTree = "<group>"; };
 		3F5D6B901941AC6F00ABFDE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3F5D6B921941AC6F00ABFDE7 /* BarsAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarsAppTests.m; sourceTree = "<group>"; };
+		3F5D6B9F1941ACC400ABFDE7 /* Bar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bar.h; sourceTree = "<group>"; };
+		3F5D6BA01941ACC400ABFDE7 /* Bar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bar.m; sourceTree = "<group>"; };
+		3F5D6BA21941B28900ABFDE7 /* BarTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarTests.m; sourceTree = "<group>"; };
+		3F5D6BA41941B4A900ABFDE7 /* Bars.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bars.h; sourceTree = "<group>"; };
+		3F5D6BA51941B4A900ABFDE7 /* Bars.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bars.m; sourceTree = "<group>"; };
+		3F5D6BA71941B6FD00ABFDE7 /* bars_list.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = bars_list.plist; sourceTree = "<group>"; };
+		3F5D6BA91941B80800ABFDE7 /* BarsListTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarsListTests.m; sourceTree = "<group>"; };
+		3F5D6BAB1941BB1600ABFDE7 /* Bars.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Bars.storyboard; sourceTree = "<group>"; };
+		3F5D6BAD1941BB3E00ABFDE7 /* BarsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarsViewController.h; sourceTree = "<group>"; };
+		3F5D6BAE1941BB3E00ABFDE7 /* BarsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarsViewController.m; sourceTree = "<group>"; };
+		3FEA741A1941CFD4007E3E38 /* MoreInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreInfoViewController.h; sourceTree = "<group>"; };
+		3FEA741B1941CFD4007E3E38 /* MoreInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreInfoViewController.m; sourceTree = "<group>"; };
+		3FEA741D1941D788007E3E38 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FEA741E1941D788007E3E38 /* MapKit.framework in Frameworks */,
 				3F5D6B701941AC6F00ABFDE7 /* CoreGraphics.framework in Frameworks */,
 				3F5D6B721941AC6F00ABFDE7 /* UIKit.framework in Frameworks */,
 				3F5D6B6E1941AC6F00ABFDE7 /* Foundation.framework in Frameworks */,
@@ -96,6 +118,7 @@
 		3F5D6B6C1941AC6F00ABFDE7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3FEA741D1941D788007E3E38 /* MapKit.framework */,
 				3F5D6B6D1941AC6F00ABFDE7 /* Foundation.framework */,
 				3F5D6B6F1941AC6F00ABFDE7 /* CoreGraphics.framework */,
 				3F5D6B711941AC6F00ABFDE7 /* UIKit.framework */,
@@ -109,6 +132,9 @@
 			children = (
 				3F5D6B7C1941AC6F00ABFDE7 /* AppDelegate.h */,
 				3F5D6B7D1941AC6F00ABFDE7 /* AppDelegate.m */,
+				3F5D6B9E1941AC8100ABFDE7 /* View */,
+				3F5D6B9D1941AC7C00ABFDE7 /* Controller */,
+				3F5D6B9C1941AC7700ABFDE7 /* Model */,
 				3F5D6B7F1941AC6F00ABFDE7 /* Images.xcassets */,
 				3F5D6B741941AC6F00ABFDE7 /* Supporting Files */,
 			);
@@ -123,14 +149,15 @@
 				3F5D6B791941AC6F00ABFDE7 /* main.m */,
 				3F5D6B7B1941AC6F00ABFDE7 /* BarsApp-Prefix.pch */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		3F5D6B8C1941AC6F00ABFDE7 /* BarsAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				3F5D6B921941AC6F00ABFDE7 /* BarsAppTests.m */,
 				3F5D6B8D1941AC6F00ABFDE7 /* Supporting Files */,
+				3F5D6BA21941B28900ABFDE7 /* BarTests.m */,
+				3F5D6BA91941B80800ABFDE7 /* BarsListTests.m */,
 			);
 			path = BarsAppTests;
 			sourceTree = "<group>";
@@ -141,7 +168,38 @@
 				3F5D6B8E1941AC6F00ABFDE7 /* BarsAppTests-Info.plist */,
 				3F5D6B8F1941AC6F00ABFDE7 /* InfoPlist.strings */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F5D6B9C1941AC7700ABFDE7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3F5D6B9F1941ACC400ABFDE7 /* Bar.h */,
+				3F5D6BA01941ACC400ABFDE7 /* Bar.m */,
+				3F5D6BA41941B4A900ABFDE7 /* Bars.h */,
+				3F5D6BA51941B4A900ABFDE7 /* Bars.m */,
+				3F5D6BA71941B6FD00ABFDE7 /* bars_list.plist */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3F5D6B9D1941AC7C00ABFDE7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3F5D6BAD1941BB3E00ABFDE7 /* BarsViewController.h */,
+				3F5D6BAE1941BB3E00ABFDE7 /* BarsViewController.m */,
+				3FEA741A1941CFD4007E3E38 /* MoreInfoViewController.h */,
+				3FEA741B1941CFD4007E3E38 /* MoreInfoViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3F5D6B9E1941AC8100ABFDE7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3F5D6BAB1941BB1600ABFDE7 /* Bars.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +278,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F5D6B781941AC6F00ABFDE7 /* InfoPlist.strings in Resources */,
+				3F5D6BA81941B6FD00ABFDE7 /* bars_list.plist in Resources */,
+				3F5D6BAC1941BB1600ABFDE7 /* Bars.storyboard in Resources */,
 				3F5D6B801941AC6F00ABFDE7 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -228,6 +288,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FEA74191941CE0D007E3E38 /* bars_list.plist in Resources */,
 				3F5D6B911941AC6F00ABFDE7 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,8 +300,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F5D6BA11941ACC400ABFDE7 /* Bar.m in Sources */,
+				3F5D6BAF1941BB3E00ABFDE7 /* BarsViewController.m in Sources */,
+				3F5D6BA61941B4A900ABFDE7 /* Bars.m in Sources */,
 				3F5D6B7E1941AC6F00ABFDE7 /* AppDelegate.m in Sources */,
 				3F5D6B7A1941AC6F00ABFDE7 /* main.m in Sources */,
+				3FEA741C1941CFD4007E3E38 /* MoreInfoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,7 +313,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F5D6B931941AC6F00ABFDE7 /* BarsAppTests.m in Sources */,
+				3F5D6BA31941B28900ABFDE7 /* BarTests.m in Sources */,
+				3F5D6BAA1941B80800ABFDE7 /* BarsListTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,8 +424,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BarsApp/BarsApp-Prefix.pch";
-				INFOPLIST_FILE = "BarsApp/BarsApp-Info.plist";
+				GCC_PREFIX_HEADER = "BarsApp/Supporting Files/BarsApp-Prefix.pch";
+				INFOPLIST_FILE = "BarsApp/Supporting Files/BarsApp-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -371,8 +437,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BarsApp/BarsApp-Prefix.pch";
-				INFOPLIST_FILE = "BarsApp/BarsApp-Info.plist";
+				GCC_PREFIX_HEADER = "BarsApp/Supporting Files/BarsApp-Prefix.pch";
+				INFOPLIST_FILE = "BarsApp/Supporting Files/BarsApp-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -388,12 +454,12 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BarsApp/BarsApp-Prefix.pch";
+				GCC_PREFIX_HEADER = "BarsApp/Supporting Files/BarsApp-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "BarsAppTests/BarsAppTests-Info.plist";
+				INFOPLIST_FILE = "BarsAppTests/Supporting Files/BarsAppTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -410,8 +476,8 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BarsApp/BarsApp-Prefix.pch";
-				INFOPLIST_FILE = "BarsAppTests/BarsAppTests-Info.plist";
+				GCC_PREFIX_HEADER = "BarsApp/Supporting Files/BarsApp-Prefix.pch";
+				INFOPLIST_FILE = "BarsAppTests/Supporting Files/BarsAppTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -437,6 +503,7 @@
 				3F5D6B981941AC6F00ABFDE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F5D6B991941AC6F00ABFDE7 /* Build configuration list for PBXNativeTarget "BarsAppTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +512,7 @@
 				3F5D6B9B1941AC6F00ABFDE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

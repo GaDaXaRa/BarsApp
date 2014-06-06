@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>length</key>
+		<real>-3709702</real>
+		<key>latitude</key>
+		<real>40412046</real>
+		<key>image</key>
+		<string>http://www.madrid-tourist-guide.com/images/int/bar/bar-madrid-guide-026.jpg</string>
+		<key>description</key>
+		<string>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus venenatis dolor eget congue. Aliquam molestie sapien nec quam malesuada fringilla.</string>
+		<key>name</key>
+		<string>Casa Pepe</string>
+		<key>address</key>
+		<string>Alameda 22</string>
+		<key>rate</key>
+		<integer>3</integer>
+	</dict>
+	<dict>
+		<key>length</key>
+		<real>-3709702</real>
+		<key>latitude</key>
+		<real>40412046</real>
+		<key>image</key>
+		<string>http://baratobarato.net/escapadasmadrid/files/2009/11/tapas-bares-madrid.jpg</string>
+		<key>description</key>
+		<string>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus venenatis dolor eget congue. Aliquam molestie sapien nec quam malesuada fringilla.</string>
+		<key>name</key>
+		<string>Casa Lucio</string>
+		<key>address</key>
+		<string>Alameda 22</string>
+		<key>rate</key>
+		<integer>4</integer>
+	</dict>
+	<dict>
+		<key>length</key>
+		<real>-3709702</real>
+		<key>latitude</key>
+		<real>40412046</real>
+		<key>image</key>
+		<string>http://www.afuegolento.com/img_db/noticias/10265_64_4_Hobbes_Bares_Madrid_O.jpg</string>
+		<key>description</key>
+		<string>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus venenatis dolor eget congue. Aliquam molestie sapien nec quam malesuada fringilla.</string>
+		<key>name</key>
+		<string>La esquina de Marcelo</string>
+		<key>address</key>
+		<string>Alameda 22</string>
+		<key>rate</key>
+		<integer>5</integer>
+	</dict>
+	<dict>
+		<key>length</key>
+		<real>-3709702</real>
+		<key>latitude</key>
+		<real>40412046</real>
+		<key>image</key>
+		<string>http://www.viajejet.com/wp-content/viajes/marcha-en-madrid-bares.jpg</string>
+		<key>description</key>
+		<string>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus venenatis dolor eget congue. Aliquam molestie sapien nec quam malesuada fringilla.</string>
+		<key>name</key>
+		<string>Casa Mari</string>
+		<key>address</key>
+		<string>Alameda 22</string>
+		<key>rate</key>
+		<integer>6</integer>
+	</dict>
+</array>
+</plist>
